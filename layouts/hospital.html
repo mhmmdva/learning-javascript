@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
+        body {
             font-family: sans-serif;
-            color: black;
+            background-color: #092067;
+            color: rgb(255, 255, 255);
         }
     </style>
 </head>
+
 <body>
-    <div class="hero">
+    <div class="main">
         <h1 id="title">Hello, Welcome to Hospital!</h1>
-        <h3 class="sub-title">Please register for new patient</h3>
+        <h2 id="sub-title">Please register for new patient</h2>
+
+        <div class="sub-main">
+            <form class="form" action="" method="get">
+                <label for="">Full Name</label>
+                <input type="text" class="form-input name" placeholder="input your name">
+                <label for="">Age</label>
+                <input type="number" class="form-input age" placeholder="xx">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
     </div>
 
     <script src="../javascript/hospital.js"></script>
 </body>
+
 </html>
